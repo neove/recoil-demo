@@ -1,0 +1,32 @@
+{
+  "name": "recoil-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neove/recoil-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neove/recoil-demo/issues"
+  },
+  "homepage": "https://github.com/neove/recoil-demo#readme",
+  "devDependencies": {
+    "@talentui/webpack-config": "^4.1.2-beta.27",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "recoil": "0.0.10"
+  }
+}
